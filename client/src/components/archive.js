@@ -28,14 +28,15 @@ handleSubmit = e => {
     headline,
     message,
   };
+  const axios = require('axios');
 
-  axios
-    .post('http://localhost:5000/create', book)
-    .then(() => console.log('Book Created'))
+  axios.post('http://localhost:5000/create', posts)
+    .then(() => console.log('Post Created'))
     .catch(err => {
       console.error(err);
     });
 };
+
     render(){
         return(
           <div>
