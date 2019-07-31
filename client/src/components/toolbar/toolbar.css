@@ -1,0 +1,44 @@
+.toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    background: #C6FFDD;
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); 
+}
+
+.spacer {
+    flex: 0.46;
+}
+
+.toolbar-navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.toolbar-navigation-items ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.toolbar-navigation-items a {
+    color: white;
+    text-decoration: none;
+}
+
+.toolbar-logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.toolbar-navigation-items a:hover,
+.toolbar-navigation-items a:active{
+    color: orange;
+}

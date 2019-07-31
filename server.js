@@ -3,10 +3,10 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 
-// console.log that your server is up and running
+// Displays that we are listening
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
-// create a GET route
+//GET route for testing
 app.get('/express_backend', (req, res) => {
   res.send({ express: 'YOUR EXPRESS BACKEND IS CONNECTED TO REACT' });
 });
@@ -19,8 +19,10 @@ var connection = mysql.createConnection({
   database : 'testing'
 });
 
+//Connection to MySQL database
 connection.connect();
 
+//Test query to see if everything works as expected
 connection.query('SELECT 1 + 1 AS solution', function (error, results, fields) {
   if (error) throw error;
   console.log('The solution is: ', results[0].solution);
