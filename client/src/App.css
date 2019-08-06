@@ -1,1 +1,28 @@
-
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border: 2px solid #f7797d;
+    outline: none;
+    padding: 10px; 
+    font-style: normal;
+    font-size: 14px;
+   
+}
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border: 2px solid #f7797d;
+    outline: none;
+    padding: 10px; 
+    width: 150px;
+    height: 20px;
+}
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -13,6 +13,7 @@ const toolbar = props => (
                 <Link style={{ padding: '0 1rem'}} to="/archive">Archive</Link>
                 <Link style={{ padding: '0 1rem'}} to="/pictures">Pictures</Link>
                 <Link style={{ padding: '0 1rem'}} to="/about">About</Link>
+                <Link style={{ padding: '0 1rem'}} to="/post">Post</Link>
                 </ul>
             </div>
         </nav>
